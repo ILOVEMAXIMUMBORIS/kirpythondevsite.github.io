@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.headblock {
+    text-align: center;
+    color: azure;
+    padding-top: 100px;
+}
+
+.WorkName{
+    display: block;
+    font-size: 25px;
+}
+
+.navbar {
+    background-color: rgb(192, 192, 192);
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav {
+    text-align: center;
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color:rgb(255, 255, 255);
+}
+
+.My_photo_head {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.about {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    border: 2px solid white;
+}
+
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Делаем контейнер для текста относительным */
+    padding-top: 50px;
+}
+
+.text-container1, .text-container2, .text-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрируем текст по вертикали */
+    position: relative;
+    margin-bottom: 20px; /* Отступ для разделения с кнопками */
+}
+
+#text {
+    font-size: 24px;
+    opacity: 0.5;
+    transition: opacity 0.3s, font-size 0.3s;
+    margin: 0 20px; /* Отступы между текстами */
+}
+
+.text_current {
+    font-size: 32px; /* Увеличенный размер для текущего текста */
+    opacity: 1; /* Полная непрозрачность */
+}
+
+#project img {
+    justify-content: center;
+}
+
+.visitkaphoto {
+    width: 700px;
+}
+
+.questphoto {
+    width: 700px;
+}
+
+.userbotphoto {
+    width: 700px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+.contact button {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.contact input {
+    background-color: #000000;
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 200px;
+    height: 20px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(192, 192, 192);
+    color: #000000;
+    flex: 0 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 150px;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    transition: .3s linear;
+    background: #000000;
+}
+
+.submit:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #000000;
+    height: 65px;
+    width: 165px;
+}
+
+
+
+#project button {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 150px;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    transition: .3s linear;
+    background: #000000;
+}
+
+#project button:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #000000;
+    height: 65px;
+    width: 165px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+#project h2 {
+    padding-left: 20px;
+}
+
+#project p{
+    text-align: center;
+    
+}
+
+
+#project {
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    position: absolute; /* Делаем кнопки абсолютными для позиционирования */
+    width: 100%; /* Устанавливаем ширину для правильного выравнивания */
+    top: 50%; /* Позиционируем по вертикали */
+    transform: translateY(-50%); /* Центрируем кнопки по вертикали */
+    display: flex; /* Используем флекс для кнопок */
+    justify-content: space-between; /* Разделяем кнопки на краях */
+    padding: 0 10px; /* Паддинг по 10 пикселей слева и справа */
+}
+
+.arrow_left, .arrow_right {
+    font-size: 60px; /* Размер стрелок */
+    cursor: pointer; /* Указатель нажатия */
+}
+
+
+
+@keyframes langspin {
+    0% {transform: translate(0px, 0px);}
+    25% {transform: translate(50px, 50px);}
+    50% {transform: translate(0px, 100px);}
+    75% {transform: translate(-50px, 50px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    }

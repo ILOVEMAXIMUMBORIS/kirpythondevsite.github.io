@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+   <link rel="stylesheet" href="styles/style.css">
+    <title>КК</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                      <li><a href="#pagestart">Начало страницы</a></li>
+                      <li><a href="#aboutme">Обо мне</a></li>
+                      <li><a href="#services">Мои проекты</a></li>
+                      <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </header>
+        <main>
+            <div class="headblock" id="pagestart">
+                <img src="img/NXcpuOO6uSE.jpg" alt="Моё фото" class="My_photo_head" >
+                <h1>Кирилл Крюков<span class="WorkName">Junior Web разработчик</span></h1>
+            </div>
+            <div class="about" id="aboutme">
+                <h2>Обо мне</h2>
+                <p>Меня зовут Кирилл, обожаю все что свзяно с IT и Авиацией. Умею работать с различными языким программирования, такими как:</p>
+                <div class="slider">
+                    <div class="text-container1">
+                        <div class="text_previous" id="text">Текст 1</div>
+                    </div>
+                    <div class="text-container2">
+                        <div class="text_current" >Текст 2</div>
+                    </div>
+                    <div class="text-container3">
+                        <div class="text_next" id="text">Текст 3</div>
+                    </div>
+                    <div class="buttons">
+                        <p class="arrow_left" id="prev">←</p>
+                        <p class="arrow_right" id="next">→</p>
+                    </div>
+                </div>
+            </div>
+            <script src="js/slider.js"></script>
+            <div class="myprojects">
+                <h2>Давайте взглянем на некоторые из моих проектов?</h2>
+                <p>Я приведу по одному примеру на каждый язык программирования который я знаю.</p>
+                <div class="project1" id="project">
+                    <h2>Html & CSS - Сайт Визитка</h2>
+                    <div class="image">
+                        <img src="img/visitka.PNG" alt="фото проекта 1" class="visitkaphoto">
+                    </div>
+                    <p>
+                        Этот сайт предназначен для некой компании, которая предоставляет некоторые услуги. На сайте присутствуют CSS-анимации, чистый HTML</p>
+                    <button onclick="document.location='../visitka/index.html'">Посетить сайт</button>
+                </div>
+                <div class="project2" id="project">
+                    <h2>JS - Квест П-18</h2>
+                    <div class="image">
+                        <img src="img/questphoto.png" alt="фото проекта 2" class="questphoto">
+                    </div>
+                        <p>Проект предоставляет из себя сайт квеста нашей группы, квест основан на JavaSript, HTML, CSS. </p>  
+                    <button onclick="window.location.href = 'https://i98228ah.beget.tech'">Посетить сайт</button>
+                </div>
+                <div class="project3" id="project">
+                    <h2>Python - ЮзерБот для личного аккаунта</h2>
+                    <div class="image">
+                        <img src="img/userbotphoto.png" alt="фото проекта 3" class="userbotphoto">
+                    </div>
+                     <p>Этот проект создан для облегчения работать в соц. сети Telegram, он помогает человеку у которого установлен этот бот создавать быстрые ответы на сообщения, вести статистику и т.д. Миллиард возможностей!</p>  
+                    <button onclick="window.location.href = 'https://github.com/ILOVEMAXIMUMBORIS/userbot'">Посетить репозиторий</button>
+                </div>
+            </div>
+            <h2>Форма для связи</h2>
+            <div class="contact">
+                
+                <div class="form">
+                    <p><b>Ваше имя:</b></p>
+                    <input type="text" id="">
+                    <p><b>Номер телефона:</b></p>
+                    <input type="tel" id="">
+                    <p><b>Email:</b></p>
+                    <input type="email" id="">
+                    <br>
+                    <button class="submit">Отправить</button>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <p>Связатся со мной:</p>
+            <a href="https://t.me/kirpythondeveloper">Telegram</a><br>
+            <a href="https://vk.com/kirpythondeveloper">VK</a>
+            <br><br>
+            <p>Сайт создал К.А. Крюков</p>
+        </footer>
+    </div>
+</body>
+</html>
